@@ -300,7 +300,7 @@ void eliminar(void){
 		if(strcmpi(borrar,info_contacto[i].nombre)==0){
 			*info_contacto[i].nombre = '\0';
 					system("CLS");
-			printf("Registro borrado exitosamente\n\n");
+			printf("Registro borrado con exito! \n\n");
 		}
 			
 		}
